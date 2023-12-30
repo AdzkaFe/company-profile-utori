@@ -13,3 +13,11 @@ document.addEventListener("click", function (e) {
         navbarMenu.classList.remove("active");
     }
 });
+
+// ubah map saat berganti slider toko
+const storeMarnat = document.querySelector(".map.maranatha");
+const storeUtori = document.querySelector(".map.utori");
+
+document.querySelector("#slide-2").onclick = () => {
+    storeMarnat.classList.toggle(active);
+};
